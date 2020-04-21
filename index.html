@@ -49,21 +49,47 @@
             </nav>
         </div>
     </div>
-    <section id="tmp">
-        <div class="tmp-container">
-            <img src="./img/toscana.jpg" alt="">
-            <div class="protect">
-                <h3>Protect </h3> 
-                <h2> nature the environment</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button>Read  More</button>
-                <div>
-                    <input type="radio">
-                    <input type="radio">
-                    <input type="radio">
+    <section class="slide-gallery">     
+        <div class="gallery-container">
+
+            <div class="slide active">
+                <img src="./img/toscana.jpg" alt="">
+                <div class="protect">
+                    <h3>Protect </h3> 
+                    <h2> nature the environment</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button>Read  More</button>  
                 </div>
-                
             </div>
+
+            <div class="slide">
+                <img src="./img/s120.jpg" alt="">
+                <div class="protect">
+                    <h3>Save </h3> 
+                    <h2> the water</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button>Read  More</button>  
+                </div>  
+            </div>
+            <div class="slide">
+                <img src="./img/river.jpg" alt="">
+                <div class="protect">
+                    <h3>Recycle </h3> 
+                    <h2> the trash</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button>Read  More</button>  
+                </div> 
+            </div>
+            
+            <div class="dots">
+                <button class="dot activeDot"></button>
+                <button class="dot"></button>
+                <button class="dot"></button>
+            </div>
+
+            <div class="arrow-prev"></div>
+            <div class="arrow-next"></div>
+            
         </div>
     </section>
 
@@ -264,37 +290,74 @@
     </section>
 
     <section class="testimonial">
-        <div class="main-container">
-            <h2>testimonials</h2>
-            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h2>testimonials</h2>
+        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-            <div class="feedback">
-                <div class="feedback-pic">
+            <div class="carousel-lence">
+                <div class="arrow-prev"></div>
+                <div class="arrow-next"></div>
+                <div class="feedback">
 
-                    <div class="feedback-photo">
-                        <img src="./img/man.jpg" alt="">
+                  <div class="feedback-slide">
+                    <div class="feedback-pic">
+                        <div class="feedback-photo">
+                            <img src="./img/man.jpg" alt="">
+                        </div>
+                        <blockquote>
+                        <i class="fas fa-quote-left"></i>
+                        Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. consectetur Lorem ipsum dolor sita met. Consectetur adipscing elit.
+                        </blockquote>
+                        <cite>Sadequr Rahman Sojib</cite>
+                        <p>CEO, Fourder</p>
                     </div>
+                  </div>
+                    
 
-                    <blockquote>
-                    <i class="fas fa-quote-left"></i>
-                    Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. consectetur Lorem ipsum dolor sita met. Consectetur adipscing elit.
-                    </blockquote>
-                    <cite>Sadequr Rahman Sojib</cite>
-                    <p>CEO, Fourder</p>
-                </div>
-                <div class='feedback-pic'>
-                    <div class="feedback-photo">
-                        <img src="./img/woman.png" alt="">
+                <div class="feedback-slide">
+                    <div class='feedback-pic'>
+                        <div class="feedback-photo">
+                            <img src="./img/woman.png" alt="">
+                        </div>
+                        <blockquote>
+                        <i class="fas fa-quote-left"></i>
+                        Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. consectetur Lorem ipsum dolor sita met. Consectetur adipscing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia corrupti voluptatem laboriosam magni, dolorum rerum saepe animi mollitia, omnis modi eius voluptas esse officiis voluptate earum laudantium labore fuga quaerat.
+                        </blockquote>
+                        <cite>Vanesssa May</cite>
+                        <p>CEO, Fourder</p>
                     </div>
-                    <blockquote>
-                    <i class="fas fa-quote-left"></i>
-                    Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. consectetur Lorem ipsum dolor sita met. Consectetur adipscing elit.
-                    </blockquote>
-                    <cite>Sadequr Rahman Sojib</cite>
-                    <p>CEO, Fourder</p>
+                </div> 
+                
+
+                <div class="feedback-slide">
+                    <div class="feedback-pic">
+                        <div class="feedback-photo">
+                            <img src="./img/man2.jpg" alt="">
+                        </div>
+                        <blockquote>
+                        <i class="fas fa-quote-left"></i>
+                        Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. consectetur Lorem ipsum dolor sita met. Consectetur adipscing elit.
+                        </blockquote>
+                        <cite>Serhio Aven</cite>
+                        <p>CEO, Fourder</p>
+                    </div>
                 </div>
+                
+
+                <div class="feedback-slide">
+                    <div class='feedback-pic'>
+                        <div class="feedback-photo">
+                            <img src="./img/woman2.jpg" alt="">
+                        </div>
+                        <blockquote>
+                        <i class="fas fa-quote-left"></i>
+                        Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. consectetur Lorem ipsum dolor sita met. Consectetur adipscing elit.
+                        </blockquote>
+                        <cite>Elena Top</cite>
+                        <p>CEO, Fourder</p>
+                    </div>
+                </div>   
+               
             </div>
-        </div>
     </section>
 
     <section class="blog">
@@ -421,6 +484,6 @@
         </div>
     </footer>
 
-
+ <script src="./cite.js"></script>
 </body>
 </html>

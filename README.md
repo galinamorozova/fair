@@ -1,1 +1,1 @@
-3 blocks
+markup of landing page

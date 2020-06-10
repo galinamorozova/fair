@@ -761,7 +761,7 @@ header {
     display: flex;  
     justify-items: center;
     flex-shrink: 0;
-    //transform: translateX(-1170px*2);
+    
     
     }
 
@@ -997,7 +997,7 @@ header {
             margin-right: 50px;
 
 
-            span {
+            a {
                 display: inline-block;
                 font-family: $open-sans;
                 font-size: 14px;
@@ -1016,6 +1016,7 @@ header {
             .mail {
                 padding-bottom: 30px;
             }
+
             
         }
 

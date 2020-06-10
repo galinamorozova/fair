@@ -1,4 +1,3 @@
-
 //перелистование слайдов по dots
 
 const dots = document.querySelector('.dots');
@@ -90,4 +89,41 @@ function showFeedback(n) {
     feedback.style.transform = `translateX(${-100*feedbackIndex}%)`;
    }
   );
+
+// меню навигации
+
+const about = document.querySelector ('.menuAbout');
+const aboutSection = document.querySelector ('.welcome');
+
+const project = document.querySelector ('.menuProject');
+const projectSection = document.querySelector ('.latest-work');
+
+const achivement = document.querySelector ('.menuAchivement');
+const achivementSection = document.querySelector ('.achivement');
+
+const event = document.querySelector ('.menuEvent');
+const eventSection = document.querySelector ('.event');
+
+const testimonial = document.querySelector ('.menuTestimonial');
+const testimonialSection = document.querySelector ('.testimonial');
+
+const blog = document.querySelector ('.menuBlog');
+const blogSection = document.querySelector ('.blog');
+
+const contact = document.querySelector ('.menuContact');
+const inTouchSection = document.querySelector ('.in-touch');
+
+about.addEventListener('click', () => aboutSection.scrollIntoView());
+
+project.addEventListener('click', () => projectSection.scrollIntoView());
+
+achivement.addEventListener('click', () => achivementSection.scrollIntoView());
+
+event.addEventListener('click', () => eventSection.scrollIntoView());
+
+testimonial.addEventListener('click', () => testimonialSection.scrollIntoView());
+
+blog.addEventListener('click', () => blogSection.scrollIntoView());
+
+contact.addEventListener('click', () => inTouchSection.scrollIntoView());
 

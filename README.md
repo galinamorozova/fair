@@ -1,1 +1,2 @@
-markup of landing page
+landing page contains 8 blocks. Javascript is used to implement: 2 sliders in two different ways (the title gallery and the feedback block), site navigation, Yandex map section. Markup contains flex and grid elements. /
+сайт-одностраничник из нескольких блоков. Посредством javascript реализовано: 2 слайдера двумя разными путями (заглавная галерея и блок отзывов), навигация по сайту, встроен сегмент yandex-карты. Верстка с использованием flex и grid.
